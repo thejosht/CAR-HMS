@@ -1,22 +1,16 @@
 # CAR-HMS
 
-CAR-HMS est un système de gestion des randonnées du club Cairn. Il permet de gérer les profils des randonneurs, les activités, les inscriptions et les listes d’attente.
+CAR-HMS is a hiking management system for the Cairn club. It manages hiker profiles, hikes, registrations and waiting lists.
 
-Ce dépôt contient le travail du projet pour le cours SEG 3502. Le premier livrable porte sur la structure du domaine, les interfaces des cas d’utilisation, les DTO de requête et les contrats Cucumber. Le code est écrit en Kotlin.
+The code is written in Kotlin.
 
-## État du projet
+## Development status
 
-Le dépôt est initialisé. La structure Kotlin et les contrats seront ajoutés dans les prochains commits.
+Development is in progress on separate branches. This branch does not yet contain a runnable application or a build configuration.
 
-## Travail dans le dépôt
-
-La branche `main` contient la version commune du projet. Les changements sont préparés sur des branches séparées, puis vérifiés avant d’être fusionnés.
-
-Pour récupérer le projet :
+## Getting a local copy
 
 ```sh
 git clone https://github.com/thejosht/CAR-HMS.git
 cd CAR-HMS
 ```
-
-Le projet ne contient pas encore de configuration de compilation ni d’application à exécuter.
