@@ -1,7 +1,7 @@
 # Notifications
 
-Classification : générique.
+Classification: Generic.
 
-Ce sous-domaine couvre l’envoi des courriels. Les autres sous-domaines déterminent les destinataires, le contenu et le moment de l’envoi.
+This subdomain handles email delivery. The other subdomains decide who receives an email, what it says and when it is sent.
 
-L’envoi peut être confié à un service existant. Ce sous-domaine ne décide pas si une inscription est acceptée ou si une randonnée change de statut.
+An existing email service can handle delivery. This subdomain does not decide whether a registration is accepted or a hike changes status.

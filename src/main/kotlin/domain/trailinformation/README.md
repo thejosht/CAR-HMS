@@ -1,7 +1,7 @@
 # Trail Information
 
-Classification : support.
+Classification: Supporting.
 
-Ce sous-domaine regroupe les renseignements sur les sentiers provenant de la Commission de la capitale nationale (CCN). Ils servent à choisir un sentier et à vérifier ses conditions d’utilisation.
+This subdomain covers trail information from the National Capital Commission (NCC). It helps organizers choose a trail and check its conditions of use.
 
-CAR-HMS utilise ces données pour organiser les randonnées. La CCN reste responsable des renseignements sur les sentiers.
+CAR-HMS uses this information to organize hikes. The NCC remains responsible for the trail information.

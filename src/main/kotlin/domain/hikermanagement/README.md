@@ -1,7 +1,7 @@
 # Hiker Management
 
-Classification : support.
+Classification: Supporting.
 
-Ce sous-domaine regroupe les profils des randonneurs, les statuts d’adhésion et les certifications des organisateurs. Ces renseignements servent à vérifier qui peut participer aux randonnées ou les diriger.
+This subdomain covers hiker profiles, membership status and organizer certifications. This information is used to check who can join or lead a hike.
 
-Il soutient la gestion des randonnées sans être l’activité principale du système.
+It supports hike management but is not the system's main activity.

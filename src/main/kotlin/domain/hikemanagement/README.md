@@ -1,7 +1,7 @@
 # Hike Management
 
-Classification : cœur.
+Classification: Core.
 
-Ce sous-domaine regroupe les randonnées, les inscriptions, les places disponibles et les listes d’attente. Il gère les règles de participation et les changements de statut des randonnées.
+This subdomain covers hikes, registrations, available places and waiting lists. It handles participation rules and changes to hike status.
 
-C’est le cœur de CAR-HMS, car le club veut surtout mieux organiser ses randonnées et permettre aux membres de trouver des activités adaptées à leur niveau et à leur horaire.
+It is the core of CAR-HMS because the club's main goal is to organize hikes and help members find activities that fit their skill level and schedule.

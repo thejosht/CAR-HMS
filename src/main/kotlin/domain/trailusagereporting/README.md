@@ -1,7 +1,7 @@
 # Trail Usage Reporting
 
-Classification : support.
+Classification: Supporting.
 
-Ce sous-domaine regroupe les statistiques sur les randonnées organisées sur chaque sentier. Il permet au club de produire des rapports pour suivre ses activités.
+This subdomain covers statistics about hikes organized on each trail. It lets the club produce reports to track its activities.
 
-Ces rapports soutiennent le suivi du club, mais ne gèrent ni les randonnées ni les inscriptions.
+These reports support the club's activity tracking. They do not manage hikes or registrations.

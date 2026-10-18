@@ -1,7 +1,7 @@
 # Identity and Access
 
-Classification : générique.
+Classification: Generic.
 
-Ce sous-domaine couvre la connexion, la déconnexion et le contrôle des accès selon le rôle de l’utilisateur. Il ne gère pas les profils des randonneurs ni leur statut d’adhésion.
+This subdomain covers sign in, sign out and access control based on the user's role. It does not manage hiker profiles or membership status.
 
-Ces fonctions sont communes à plusieurs applications et peuvent utiliser des outils d’authentification existants.
+These functions are common to many applications and can use existing authentication tools.

@@ -1,22 +1,22 @@
 # CAR-HMS
 
-CAR-HMS est un système de gestion des randonnées du club Cairn. Il permet de gérer les profils des randonneurs, les activités, les inscriptions et les listes d’attente.
+CAR-HMS is a hiking management system for the Cairn club. It manages hiker profiles, hikes, registrations and waiting lists.
 
-Ce dépôt contient le travail du projet pour le cours SEG 3502. Le premier livrable porte sur la structure du domaine, les interfaces des cas d’utilisation, les DTO de requête et les contrats Cucumber. Le code est écrit en Kotlin.
+This repository contains the project work for SEG 3502. The first deliverable covers the domain structure, use case interfaces, request DTOs and Cucumber contracts. The code is written in Kotlin.
 
-## État du projet
+## Project status
 
-La structure du domaine se trouve dans [`src/main/kotlin/domain`](src/main/kotlin/domain). Chaque sous-domaine a son propre README. Les interfaces des cas d’utilisation, les DTO de requête et les contrats seront ajoutés dans les prochains commits.
+The domain structure is in [`src/main/kotlin/domain`](src/main/kotlin/domain). Each subdomain has its own README. The use case interfaces, request DTOs and contracts will be added in later commits.
 
-## Travail dans le dépôt
+## Working in the repository
 
-La branche `main` contient la version commune du projet. Les changements sont préparés sur des branches séparées, puis vérifiés avant d’être fusionnés.
+The `main` branch holds the shared version of the project. Changes are made on separate branches and checked before merging.
 
-Pour récupérer le projet :
+To get a local copy:
 
 ```sh
 git clone https://github.com/thejosht/CAR-HMS.git
 cd CAR-HMS
 ```
 
-Le projet ne contient pas encore de configuration de compilation ni d’application à exécuter.
+The project does not yet have a build configuration or an application to run.
