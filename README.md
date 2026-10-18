@@ -6,7 +6,7 @@ Ce dépôt contient le travail du projet pour le cours SEG 3502. Le premier livr
 
 ## État du projet
 
-Le dépôt est initialisé. La structure Kotlin et les contrats seront ajoutés dans les prochains commits.
+La structure du domaine se trouve dans [`src/main/kotlin/domain`](src/main/kotlin/domain). Chaque sous-domaine a son propre README. Les interfaces des cas d’utilisation, les DTO de requête et les contrats seront ajoutés dans les prochains commits.
 
 ## Travail dans le dépôt
 
