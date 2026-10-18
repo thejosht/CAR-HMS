@@ -6,7 +6,24 @@ This repository contains the project work for SEG 3502. The first deliverable co
 
 ## Project status
 
-The domain structure is in [`src/main/kotlin/domain`](src/main/kotlin/domain). Each subdomain has its own README. The use case interfaces, request DTOs and contracts will be added in later commits.
+The domain structure is in [`src/main/kotlin/domain`](src/main/kotlin/domain). Each subdomain has its own README. The interfaces and request DTOs for the four use cases below are also in place. The remaining interfaces and Cucumber contracts will be added in later commits.
+
+## Application commands
+
+The interfaces are in [`application/usecases`](src/main/kotlin/application/usecases). They declare the commands but do not implement them yet.
+
+| Use case | Commands |
+| --- | --- |
+| Register Hiker | `registerHiker` |
+| Update Hiker | `updateHiker`, `changeMembershipStatus`, `recordOrganizerCertification` |
+| Sign Up for Hike | `signUpForHike` |
+| Cancel Sign Up | `cancelSignUp` |
+
+Request DTOs are in [`application/dtos/queries`](src/main/kotlin/application/dtos/queries). IDs use `UUID`, and dates without a time use `LocalDate`. A successful registration returns the new hiker ID. Signing up for a hike returns the registration ID, whether the registration is confirmed or on the waiting list.
+
+Hiker and administrator IDs used to identify the caller must come from the authenticated session, not an unchecked client value. Membership changes and organizer certification require an administrator. For a minor, `waiverAccepted` refers to the legal guardian's acceptance, and `legalGuardianName` must be provided.
+
+Levels and membership status are request strings that the command implementation must validate. Skill levels are `BEGINNER`, `INTERMEDIATE`, `ADVANCED` and `EXPERT`. Membership status is `ACTIVE`, `EXPIRED` or `SUSPENDED`. Organizer levels use trail difficulty: `EASY`, `MODERATE`, `DIFFICULT` and `VERY_DIFFICULT`.
 
 ## Working in the repository
 
