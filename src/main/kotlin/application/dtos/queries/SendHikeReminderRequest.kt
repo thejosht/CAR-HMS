@@ -1,4 +1,7 @@
+package application.dtos.queries
+
+import java.util.UUID
+
 data class SendHikeReminderRequest(
-    val hikeId: String, 
-    val message: String
+    val hikeId: UUID,
 )

@@ -1,4 +1,9 @@
+package application.dtos.queries
+
+import java.util.UUID
+
 data class CancelHikeRequest(
-    val hikeId: String, 
-    val reason: String
+    val actorId: UUID,
+    val hikeId: UUID,
+    val reason: String,
 )
